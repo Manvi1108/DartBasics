@@ -20,7 +20,7 @@ void main()
   Uttar Pradesh
   """;       //multiple string data type
   print(institutename);
-  print("$trainingname : $coursename");
+  print("$trainingname : $coursename");  //this is interpulation
   num price= 10000; //num can store both whole and fraction value and it is strict datatype
   price = 1000.89;
   List mylist=[1,3,4,true,"c++"];  //index starts from zero and dynamic in nature
