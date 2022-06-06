@@ -20,10 +20,10 @@ void main()
 // 2nd program
   print("calaculation for simple interest");
   int p,r,t;
-  print("Enter principal amount ");
+  print("Enter principal amount(in rupees) ");
   p = int.parse(stdin.readLineSync()!);
 
-  print("Enter rate of interest ");
+  print("Enter rate of interest(in %) ");
   r = int.parse(stdin.readLineSync()!);
 
   print("Enter time(in months) ");
