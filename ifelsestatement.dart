@@ -5,7 +5,6 @@ import 'dart:io';
 void main()
 {
    int num = stdin.readByteSync();
-   // ignore: deprecated_member_use
-   var myList = List.filled(3, null, growable: false);
- print(myList);
+   var myList = List.filled(89,3, growable: false);
+   print(myList);
 }
